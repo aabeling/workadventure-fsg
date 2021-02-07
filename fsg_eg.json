@@ -16,7 +16,7 @@
          "name":"blocker",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":130,
          "x":0,
          "y":0
@@ -27,8 +27,14 @@
          "id":23,
          "name":"treppe2_ausgang_runter",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":130,
          "x":0,
          "y":0
@@ -46,7 +52,7 @@
                  "value":"fsg_og.json#treppe2_ausgang_hoch"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":130,
          "x":0,
          "y":0
@@ -64,7 +70,7 @@
                  "value":"fsg_og.json#treppe1_ausgang_hoch"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":130,
          "x":0,
          "y":0
@@ -82,7 +88,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":130,
          "x":0,
          "y":0
@@ -94,7 +100,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":130,
          "x":0,
          "y":0
